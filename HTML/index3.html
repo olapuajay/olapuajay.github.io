@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Form Tags</h1>
+  <form action="server.jsp" method="POST">
+    <p>
+      <input type="text" required placeholder="Enter Name" autofocus />
+    </p>
+    <!-- <p>
+      <input type="text" value="ajay" readonly />
+    </p>
+    <p>
+      <input type="text" maxlength="5" size="100px" />
+    </p> -->
+    <!-- <p>
+      <input type="image" src="submit.png" />
+    </p> -->
+    <p>
+      <input type="reset" />
+    </p>
+    <button>Submit</button>
+  </form>
+
+  <fieldset>
+    <legend>Registration Form</legend>
+    <form>
+      <p><input type="text" placeholder="Enter Email" /></p>
+      <p><input type="password" placeholder="Enter Password" /></p>
+      <p><input type="date" /></p>
+      <p>
+        <input type="checkbox" />Java
+        <input type="checkbox" />Python
+        <input type="checkbox" />JavaScript
+      </p>
+      <p>
+        <input type="radio" name="option" />Option 1
+        <input type="radio" name="option" />Option 2
+        <input type="radio" name="option" />Option 3
+      </p>
+      <p>
+        <select>
+          <optgroup label="India">
+            <option value="">Delhi</option>
+            <option value="">Hyderabad</option>
+            <option value="">Banglore</option>
+          </optgroup>
+          <optgroup label="Australia">
+            <option value="">Perth</option>
+            <option value="">Sydney</option>
+            <option value="">Melbourne</option>
+            <option value="">Brisbaine</option>
+          </optgroup>
+        </select>
+      </p>
+      <p><input type="number" placeholder="Enter Number"></p>
+      <p><input type="file"></p>
+      <p><input type="color"></p>
+      <p><textarea rows="4" cols="50" placeholder="Write Something..."></textarea></p>
+      <label for="chk">
+        Remember me <input type="checkbox" id="chk">
+      </label>
+      <p>
+        <input list="country">
+        <datalist id="country">
+          <option>India</option>
+          <option>USA</option>
+          <option >UK</option>
+        </datalist>
+      </p>
+      <button>Login</button>
+    </form>
+  </fieldset>
+</body>
+</html>
