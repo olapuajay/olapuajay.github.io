@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Multimedia</h1>
+  <h3>Audio Files</h3>
+  <audio controls>
+    <source src="got.mp3">
+  </audio>
+  <video height="200px" width="350px" controls>
+    <source src="drone.mp4">
+    <track
+      src="subtitles1.vtt"
+      kind="subtitles"
+      srclang="en"
+      label="English"
+    ></track>
+    <track
+      src="subtitles1.vtt"
+      kind="subtitles"
+      srclang="hi"
+      label="Hindi"
+    ></track>
+  </video>
+  <video height="200px" width="350px" controls autoplay loop>
+    <source src="drone.mp4">
+  </video>
+  <hr />
+  <svg width="900" height="900">
+    <circle
+      cx="250"
+      cy="250"
+      r="200"
+      stroke="red"
+      stroke-width="5"
+      fill="pink"
+    />
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="red" />
+  </svg>
+</body>
+</html>
