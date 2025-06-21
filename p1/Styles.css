@@ -27,6 +27,7 @@ header {
   border: none;
   background-color: transparent;
   color: rgba(106, 105, 105, 0.842);
+  padding-right: 20px;
 }
 
 .search-bar  {
@@ -87,4 +88,196 @@ header {
   font-size: 0.7rem;
   color: rgba(106, 105, 105, 0.842);
   font-weight: 600;
+}
+
+/* Main Section */
+.mini-header {
+  margin-top: 30px;
+  margin-inline: 10px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.mini-header .departments {
+  border: none;
+  color: rgba(0, 0, 0, 0.811);
+}
+.mini-header-links ul{
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  font-size: small;
+  color: rgba(106, 105, 105, 0.842);
+}
+.main-section {
+  display: flex;
+  margin-top: 30px;
+  margin-inline: 10px;
+  gap: 20px;
+}
+.summer-juice-main {
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #E6F3FA;
+  width: 700px;
+  height: 480px;
+}
+.summer-juice {
+  display: flex;
+}
+.summer-juice-content {
+  padding-top: 20px;
+}
+.summer-juice-content h2 {
+  color: gold;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+.summer-juice-content h1 {
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.82);
+  margin-bottom: 15px;
+}
+.summer-juice-content p {
+  font-size: 0.8rem;
+  color: rgba(106, 105, 105, 0.842);
+  margin-bottom: 20px;
+}
+.summer-juice-content button {
+  padding-inline: 20px;
+  padding-block: 15px;
+  font-size: 0.7rem;
+  color: rgba(11, 11, 11, 0.701);
+  font-weight: 600;
+  background: transparent;
+  border-radius: 4px;
+  border: rgba(11, 11, 11, 0.701) solid 1px;
+}
+.summer-juice-dots {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.summer-juice-dots .dot-1 {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: gold;
+}
+.summer-juice-dots .dot-2, .dot-3 {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.fv-baked-products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fruits-vegetables {
+  display: flex;
+  justify-content: space-between;
+  background-color: #EEF5E5;
+  border-radius: 8px;
+  height: 230px;
+  width: 500px;
+}
+.fv-content {
+  padding: 30px;
+  padding-top: 40px;
+}
+.fv-content h2 {
+  font-weight:lighter;
+  margin-bottom: 10px;
+}
+.fv-content h5 {
+  font-size: 0.5rem;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.fv-content h1 {
+  color: rgba(0, 0, 0, 0.817);
+  margin-bottom: 10px;
+}
+.fv-content p {
+  font-size: small;
+  color: rgba(106, 105, 105, 0.842);
+}
+.fv-image {
+  margin-bottom: -3px;
+  align-self: last baseline;
+}
+
+.baked-products {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F9EBE7;
+  border-radius: 8px;
+  height: 230px;
+  width: 500px;
+}
+.bp-content {
+  padding: 30px;
+  padding-top: 40px;
+}
+.bp-content h2 {
+  font-weight:lighter;
+  margin-bottom: 10px;
+}
+.bp-content h5 {
+  font-size: 0.5rem;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.bp-content h1 {
+  color: rgba(0, 0, 0, 0.817);
+  margin-bottom: 10px;
+}
+.bp-content p {
+  font-size: small;
+  color: rgba(106, 105, 105, 0.842);
+}
+.bp-image {
+  margin-bottom: -3px;
+  align-self: last baseline;
+}
+
+.category-section {
+  margin: 30px;
+  margin-inline: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.category-section h2 {
+  color: rgba(0, 0, 0, 0.817);
+}
+.category-section .c-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.category-section .c-right .view-all-c {
+  font-size: small;
+  font-weight: 600;
+  color:  rgba(106, 105, 105, 0.842);
+}
+.category-section .c-right .c-page {
+  display: flex;
+  gap: 10px;
+}
+.category-section .c-right .c-page p {
+  padding-inline: 15px;
+  padding-block: 10px;
+  border-radius: 5px;
+  font-size: 0.6rem;
+  background-color: rgba(169, 169, 169, 0.137);
 }
