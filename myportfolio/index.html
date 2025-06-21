@@ -1,36 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header style="background-color: rgb(14, 97, 213); padding-left: 30px; padding-right: 30px; display: flex; justify-content: space-between; align-items: center; border-radius: 15px; height: 60px;">
-    <div>
-      <h1>Ajay</h1>
-    </div>
-    <div>
-      <ul style="display: flex; flex-direction: row; justify-content: center; gap: 10px; list-style-type: none; font-weight: bold;">
-        <li>Home</li>
-        <li>Services</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
-      </ul>
-    </div>
-  </header>
-  <main style="margin-top: 20px;">
-    <div style="display: flex; gap: 50px; justify-content: center;">
-      <div style="width: 600px; height: 400px; display: flex; flex-direction: column; justify-content: center; padding-left: 10px;">
-        <h2>MERN Stack Developer</h2>
-        <p style="font-size: large; color: rgb(33, 33, 33);">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident omnis, minima odio tempora itaque ipsa sint neque alias expedita quae, voluptatem, perspiciatis praesentium pariatur aliquam reprehenderit? Enim repudiandae vel qui, recusandae doloremque corrupti dignissimos velit ipsum cupiditate quam mollitia deserunt ipsa quia, deleniti laboriosam commodi, voluptate tempore culpa eos? Laudantium!</p>
-        <button style="padding-inline: 10px; padding-block: 5px; width: fit-content; background-color: rgb(14, 97, 213); border: none; border-radius: 15px; font-size: large;">Contact Me</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Ajay</h1>
       </div>
-      <div style="width: 400px; height: 400px; display: flex;">
-        <img src="profile.png" alt="Profile Image" style="width: 400px; height: 400px;">
+      <div>
+        <ul
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+            list-style-type: none;
+            font-weight: bold;
+          "
+        >
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-    </div>
-  </main>
-</body>
+    </header>
+    <main>
+      <section id="home" class="home-section">
+        <div class="home-text">
+          <h2>MERN Stack Developer</h2>
+          <p>
+            I'm a MERN Stack Developer with a passion for building
+            interactive and dynamic web applications. I specialize in
+            creating seamless user experiences using the latest technologies
+            and frameworks. My goal is to deliver high-quality, scalable, and
+            efficient solutions that meet the needs of my teammates and clients.
+          </p>
+          <button><a href="#contact">Contact Me</a></button>
+          <button><a href="#projects">View Projects</a></button>
+        </div>
+        <div class="home">
+          <img
+            src="./images/profile.png"
+            alt="Profile Image"
+            style="width: 400px; height: 400px"
+          />
+        </div>
+      </section>
+      <section id="services" class="services-section">
+        <h1>Services</h1>
+        <div class="services-cards">
+          <div class="services-card">
+            <img src="./images/service-1.jpg" alt="">
+            <h3 class="services-title">Frontend Web Development</h3>
+            <p class="services-description">
+              I create responsive and user-friendly interfaces using HTML, CSS,
+              and JavaScript frameworks like React.
+            </p>
+          </div>
+          <div class="services-card">
+            <img src="./images/service-2.jpg" alt="">
+            <h3 class="services-title">Web Designing</h3>
+            <p class="services-description">
+              I design visually appealing and intuitive web layouts that enhance
+              user experience and engagement.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects-section">
+        <h1>Projects</h1>
+        <div class="project-cards">
+          <div class="project-card">
+            <img src="./images/project-3.png" alt="">
+            <h3 class="project-title">Film Vault</h3>
+            <p class="project-description">
+              Film Vault is a movie and TV show tracking app that lets you explore, search, and manage your watchlist effortlessly. It fetches real-time data using the TMDB API and provides a seamless user experience with: Home Page, Watchlist, Search & Filter, Sorting by Genre, and Responsive Design.
+            </p>
+            <a href="" target="_blank" class="project-link">View</a>
+          </div>
+          <div class="project-card">
+            <img src="./images/project-2.png" alt="">
+            <h3 class="project-title">Restaurant Website</h3>
+            <p class="project-description">
+              A simple, responsive restaurant website built using React and Bootstrap. This project includes features such as a homepage, menu, contact form, and about section. Designed with clean UI, the site is mobile-friendly and optimized for performance.
+            </p>
+            <a href="" target="_blank" class="project-link">View</a>
+          </div>
+          <div class="project-card">
+            <img src="./images/project-1.png" alt="">
+            <h3 class="project-title">Cricket Website</h3>
+            <p class="project-description">
+              A Simple and responsive cricket based webpage using few frontend web technologies like HTML, CSS, Java Script, JQuery, and Bootstrap.
+            </p>
+            <a href="" target="_blank" class="project-link">View</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
