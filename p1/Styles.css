@@ -530,7 +530,7 @@ header {
   color: rgba(0, 0, 0, 0.842);
 }
 .section-3  p {
-  font-size: small;
+  font-size: 0.8rem;
   color: rgb(139, 138, 138);
 }
 .section-3-subscribe {
@@ -540,6 +540,7 @@ header {
 .section-3 input {
   padding: 0 5px;
   height: 1.6rem;
+  width: 250px;
   font-size: 0.7rem;
   border-radius: 3px;
   border-bottom-right-radius: 0;
