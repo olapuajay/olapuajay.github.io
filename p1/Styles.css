@@ -478,3 +478,87 @@ header {
   font-size: medium;
   color: rgba(0, 0, 0, 0.863);
 }
+
+.services-section {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 200px;
+}
+.section-1 .social-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 0.5rem;
+  width: 100%;
+}
+.section-1 .social-links i {
+  color: rgb(139, 138, 138);
+  border: 0.5px solid black;
+  padding: 6px 8px;
+  align-self: center;
+  border-radius: 3px;
+  border-color: rgb(139, 138, 138);
+}
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-2 h3 {
+  font-size: medium;
+  color: rgba(0, 0, 0, 0.842);
+}
+.section-2 p {
+  font-size: small;
+  color: rgb(139, 138, 138);
+}
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 260px;
+}
+.section-3 h3 {
+  font-size: medium;
+  color: rgba(0, 0, 0, 0.842);
+}
+.section-3  p {
+  font-size: small;
+  color: rgb(139, 138, 138);
+}
+.section-3-subscribe {
+  display: flex;
+  align-items: center;
+}
+.section-3 input {
+  padding: 0 5px;
+  height: 1.6rem;
+  font-size: 0.7rem;
+  border-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border: none;
+  background-color: rgba(115, 115, 115, 0.075);
+  color: rgb(139, 138, 138);
+}
+.section-3 input:focus {
+  outline: none;
+}
+.section-3 button {
+  padding: 0 10px;
+  height: 1.6rem;
+  font-size: 0.6rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.904);
+  border: none;
+  border-radius: 3px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
