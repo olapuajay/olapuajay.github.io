@@ -30,6 +30,10 @@ header a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s;
+}
+header a:hover {
+  color: darkblue;
 }
 .home-section {
   height: 80vh;
@@ -56,6 +60,7 @@ header a {
   background-color: #2480ea;
   padding: 10px 20px;
   border-radius: 5px;
+  transition: background-color 0.3s;
 }
 .home-section .home-text button:hover {
   background-color: #1a5bbd;
@@ -271,6 +276,12 @@ header a {
   padding: 10px 20px;
   border-radius: 5px;
   width: 100%;
+  transition: color 0.3s, background-color 0.3s;
+}
+.contact-content form button:hover {
+  background-color: #1a5bbd;
+  cursor: pointer;
+  color: white;
 }
 .contact-content .contact-links {
   display: flex;
