@@ -292,6 +292,9 @@ header {
   font-size: 0.6rem;
   background-color: rgba(169, 169, 169, 0.137);
 }
+.category-header .c-right .c-page p .fa-chevron-left {
+  color: rgb(139, 138, 138);
+}
 .category-content {
   display: flex;
   justify-content: space-around;
@@ -353,6 +356,9 @@ header {
   border-radius: 5px;
   font-size: 0.6rem;
   background-color: rgba(169, 169, 169, 0.137);
+}
+.brands-header .b-right .c-page p .fa-chevron-left {
+  color: rgb(139, 138, 138);
 }
 .brands-content {
   display: flex;
@@ -500,11 +506,10 @@ header {
 }
 .section-1 .social-links i {
   color: rgb(139, 138, 138);
-  border: 0.5px solid black;
+  border: 1px solid rgb(139, 138, 138);
   padding: 6px 8px;
   align-self: center;
   border-radius: 3px;
-  border-color: rgb(139, 138, 138);
 }
 .section-2 {
   display: flex;
