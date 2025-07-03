@@ -31,6 +31,6 @@ const products = [
 //   res.send(req.params.name)
 // })
 
-app.get("/student/:name/age/:age", (req, res) => {
+app.get("/student/:name/:age", (req, res) => {
   res.send(req.params.name + req.params.age);
 })
